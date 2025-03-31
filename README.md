@@ -13,10 +13,10 @@ Le robot doit :
 
 ## ✨ Fonctionnalités principales
 
-- ▪ Mode **Cartographie** : affichage temps réel des points détectés par le Lidar.
-- ▪ Mode **Commande vocale** : enregistrement audio → envoi au backend Flask → interprétation → commande envoyée au robot.
-- ▪ Mode **Pilotage manuel** : boutons de direction + retour vidéo en direct.
-- ▪ Mode **Suivi de balle** : détection visuelle + choix dynamique de la couleur à suivre.
+- Mode **Cartographie** : affichage temps réel des points détectés par le Lidar.
+- Mode **Commande vocale** : enregistrement audio → envoi au backend Flask → interprétation → commande envoyée au robot.
+- Mode **Pilotage manuel** : boutons de direction + retour vidéo en direct.
+- Mode **Suivi de balle** : détection visuelle + choix dynamique de la couleur à suivre.
 
 ## 🔧 Stack technique
 
