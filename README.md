@@ -21,7 +21,7 @@ Le robot doit :
 ## 🔧 Stack technique
 
 - **Frontend** : Angular v17.3.3
-- **Backend ([non inclus dans ce repo](https://github.com/MaelaViguier/mobile_robot_backend))** : Flask (Python)
+- **Backend ([dans ce repo](https://github.com/MaelaViguier/mobile_robot_backend))** : Flask (Python)
 - **Robot** : Raspberry Pi + Arduino
 
 ## 🎓 Ce que j’ai appris
