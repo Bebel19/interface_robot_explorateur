@@ -1,4 +1,4 @@
-# InterfaceRobotExplorateur
+# InterfaceRobotExplorateur - Projet Fil Rouge 1A SRI 2023/2024
 
 ![Angular](https://img.shields.io/badge/built%20with-Angular-red)
 ![Status](https://img.shields.io/badge/status-terminé-green)
