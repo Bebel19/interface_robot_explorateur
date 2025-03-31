@@ -1,27 +1,63 @@
 # InterfaceRobotExplorateur
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.3.
+![Angular](https://img.shields.io/badge/built%20with-Angular-red)
+![Status](https://img.shields.io/badge/status-terminé-green)
 
-## Development server
+Interface Angular pour le contrôle d’un **robot explorateur autonome** dans le cadre du projet fil rouge de 1ère année à UPSSITECH (2023–2025).
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Le robot doit :
+- cartographier son environnement,
+- comprendre des commandes vocales,
+- suivre des balles colorées,
+- être contrôlable manuellement depuis l’interface.
 
-## Code scaffolding
+## ✨ Fonctionnalités principales
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- ▪ Mode **Cartographie** : affichage temps réel des points détectés par le Lidar.
+- ▪ Mode **Commande vocale** : enregistrement audio → envoi au backend Flask → interprétation → commande envoyée au robot.
+- ▪ Mode **Pilotage manuel** : boutons de direction + retour vidéo en direct.
+- ▪ Mode **Suivi de balle** : détection visuelle + choix dynamique de la couleur à suivre.
 
-## Build
+## 🔧 Stack technique
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+- **Frontend** : Angular v17.3.3
+- **Backend (non inclus dans ce repo)** : Flask (Python)
+- **Robot** : Raspberry Pi + Arduino
 
-## Running unit tests
+## 🎓 Ce que j’ai appris
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+- Développement Angular (modules, composants, routing).
+- Communication avec un backend Flask via HTTP/REST.
+- Intégration de retours capteurs (caméra, Lidar).
 
-## Running end-to-end tests
+## ⚡ Statut
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+Projet **terminé** (2024). Utilisé lors de démonstrations pour valider les compétences transverses du projet.
 
-## Further help
+## ⚙️ Lancer le projet en local
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+1. Cloner le repo :
+   ```bash
+   git clone https://github.com/Bebel19/interface_robot_explorateur.git
+   cd interface_robot_explorateur
+   ```
+
+2. Installer les dépendances :
+   ```bash
+   npm install
+   ```
+
+3. Lancer le serveur de développement :
+   ```bash
+   ng serve
+   ```
+   Accéder à [http://localhost:4200](http://localhost:4200)
+
+## 🎨 Demo
+
+![Aperçu du robot explorateur](assets/20240512_195038.jpg)
+
+
+---
+
+**Projet universitaire ✨** — UPSSITECH Toulouse
