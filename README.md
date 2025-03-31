@@ -55,7 +55,7 @@ Projet **terminé** (2024). Utilisé lors de démonstrations pour valider les co
 
 ## 🎨 Demo
 
-![Aperçu du robot explorateur](https://github.com/Bebel19/interface_robot_explorateur/blob/main/assets/image/robot_explorateur_demo.gif)
+![Aperçu du robot explorateur](https://github.com/Bebel19/interface_robot_explorateur/blob/main/assets/image/20240512_195038.jpg)
 
 
 
