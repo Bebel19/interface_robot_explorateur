@@ -33,6 +33,7 @@ Le robot doit :
 ## ⚡ Statut
 
 Projet **terminé** (2024). Utilisé lors de démonstrations pour valider les compétences transverses du projet.
+Ce projet a été utilisé comme plateforme de développement lors du **[HackaTAL 2024](https://hackatal.github.io/2024/)**, un hackathon autour du TAL et des IA génératives appliquées à des cas concrets.
 
 ## ⚙️ Lancer le projet en local
 
@@ -55,8 +56,12 @@ Projet **terminé** (2024). Utilisé lors de démonstrations pour valider les co
 
 ## 🎨 Demo
 
-<img src="https://github.com/Bebel19/interface_robot_explorateur/blob/master/src/assets/image/20240512_195038.jpg?raw=true" alt="Robot explorateur" width="400"/>
-<img src="https://github.com/Bebel19/interface_robot_explorateur/blob/master/src/assets/video/robot_explorateur.gif?raw=true" alt="Robot explorateur GIF" width="400"/>
+<div align="center">
+  <img src="https://github.com/Bebel19/interface_robot_explorateur/blob/master/src/assets/image/20240512_195038.jpg?raw=true" alt="Robot explorateur" width="400"/>
+  <br/>
+  <img src="https://github.com/Bebel19/interface_robot_explorateur/blob/master/src/assets/video/robot_explorateur.gif?raw=true" alt="Robot explorateur GIF" width="800"/>
+</div>
+
 
 
 
