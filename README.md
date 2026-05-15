@@ -1,70 +1,48 @@
-# InterfaceRobotExplorateur - Projet Fil Rouge 1A SRI 2023/2024
+# InterfaceRobotExplorateur - First-Year SRI Project 2023/2024
+
+[Français](README.fr.md) | English
 
 ![Angular](https://img.shields.io/badge/built%20with-Angular-red)
-![Status](https://img.shields.io/badge/status-terminé-green)
+![Status](https://img.shields.io/badge/status-completed-green)
 
-Interface Angular pour le contrôle d’un **robot explorateur autonome** dans le cadre du projet fil rouge de 1ère année à UPSSITECH (2023–2025).
+Angular interface for controlling an autonomous explorer robot as part of the first-year SRI project at UPSSITECH Toulouse.
 
-Le robot doit :
-- cartographier son environnement,
-- comprendre des commandes vocales,
-- suivre des balles colorées,
-- être contrôlable manuellement depuis l’interface.
+The robot can:
 
-## ✨ Fonctionnalités principales
+- map its environment,
+- understand voice commands,
+- follow colored balls,
+- be controlled manually from the interface.
 
-- Mode **Cartographie** : affichage temps réel des points détectés par le Lidar.
-- Mode **Commande vocale** : enregistrement audio → envoi au backend Flask → interprétation → commande envoyée au robot.
-- Mode **Pilotage manuel** : boutons de direction + retour vidéo en direct.
-- Mode **Suivi de balle** : détection visuelle + choix dynamique de la couleur à suivre.
+## Main features
 
-## 🔧 Stack technique
+- Mapping mode: real-time display of points detected by the Lidar.
+- Voice command mode: audio recording, sent to the Flask backend, interpreted, then converted into a command sent to the robot.
+- Manual control mode: direction buttons with live video feedback.
+- Ball tracking mode: visual detection with dynamic selection of the color to follow.
 
-- **Frontend** : Angular v17.3.3
-- **Backend ([dans ce repo](https://github.com/MaelaViguier/mobile_robot_backend))** : Flask (Python)
-- **Robot** : Raspberry Pi + Arduino
+## Technical stack
 
-## 🎓 Ce que j’ai appris
+- Frontend: Angular v17.3.3
+- Backend ([repository](https://github.com/MaelaViguier/mobile_robot_backend)): Flask, Python
+- Robot: Raspberry Pi and Arduino
 
-- Développement Angular (modules, composants, routing).
-- Communication avec un backend Flask via HTTP/REST.
-- Intégration de retours capteurs (caméra, Lidar).
+## What I learned
 
-## ⚡ Statut
+- Angular development: modules, components, routing.
+- Communication with a Flask backend using HTTP/REST.
+- Integration of sensor feedback: camera and Lidar.
 
-Projet **terminé** (2024). Utilisé lors de démonstrations pour valider les compétences transverses du projet.
-Ce projet a été utilisé comme plateforme de développement lors du **[HackaTAL 2024](https://hackatal.github.io/2024/)**, un hackathon autour du TAL et des IA génératives appliquées à la conversion audio en commandes.
+## Status
 
-## ⚙️ Lancer le projet en local
+Project completed in 2024. It was used during demonstrations to validate the cross-disciplinary skills developed during the project.
 
-1. Cloner le repo :
+This project was also used as a development platform during [HackaTAL 2024](https://hackatal.github.io/2024/), a hackathon focused on Natural Language Processing and generative AI applied to converting audio into robot commands.
+
+## Run the project locally
+
+1. Clone the repository:
+
    ```bash
    git clone https://github.com/Bebel19/interface_robot_explorateur.git
    cd interface_robot_explorateur
-   ```
-
-2. Installer les dépendances :
-   ```bash
-   npm install
-   ```
-
-3. Lancer le serveur de développement :
-   ```bash
-   ng serve
-   ```
-   Accéder à [http://localhost:4200](http://localhost:4200)
-
-## 🎨 Demo
-
-<div align="center">
-  <img src="https://github.com/Bebel19/interface_robot_explorateur/blob/master/src/assets/image/20240512_195038.jpg?raw=true" alt="Robot explorateur" width="400"/>
-  <br/>
-  <img src="https://github.com/Bebel19/interface_robot_explorateur/blob/master/src/assets/video/robot_explorateur.gif?raw=true" alt="Robot explorateur GIF" width="800"/>
-</div>
-
-
-
-
----
-
-**Projet universitaire ✨** — UPSSITECH Toulouse
