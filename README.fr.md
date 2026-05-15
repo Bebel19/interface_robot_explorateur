@@ -20,7 +20,7 @@ Le robot doit :
 - Mode **Pilotage manuel** : boutons de direction + retour vidéo en direct.
 - Mode **Suivi de balle** : détection visuelle + choix dynamique de la couleur à suivre.
 
-## 🔧 Stack technique
+## Stack technique
 
 - **Frontend** : Angular v17.3.3
 - **Backend ([dans ce repo](https://github.com/MaelaViguier/mobile_robot_backend))** : Flask (Python)
@@ -37,7 +37,7 @@ Le robot doit :
 Projet **terminé** (2024). Utilisé lors de démonstrations pour valider les compétences transverses du projet.
 Ce projet a été utilisé comme plateforme de développement lors du **[HackaTAL 2024](https://hackatal.github.io/2024/)**, un hackathon autour du TAL et des IA génératives appliquées à la conversion audio en commandes.
 
-## ⚙️ Lancer le projet en local
+## Lancer le projet en local
 
 1. Cloner le repo :
    ```bash
